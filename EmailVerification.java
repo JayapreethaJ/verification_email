@@ -10,6 +10,10 @@ public class EmailVerification{
         public EmailVerification(int age){
             this.age = age;
         }
+
+        public void otpVerification(){
+            System.out.println("Enter Your OTP");
+        }
     public static void main(String[] args) {
         EmailVerification name = new EmailVerification("jaya","preetha","jayaraman4preetha@gmail.com");
         EmailVerification age = new EmailVerification(23);
