@@ -14,6 +14,9 @@ public class EmailVerification{
         public void otpVerification(){
             System.out.println("Enter Your OTP");
         }
+        public void resendOtp(){
+            System.out.println("You otp sent in your mail");
+        }
     public static void main(String[] args) {
         EmailVerification name = new EmailVerification("jaya","preetha","jayaraman4preetha@gmail.com");
         EmailVerification age = new EmailVerification(23);
